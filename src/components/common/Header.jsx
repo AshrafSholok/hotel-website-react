@@ -56,10 +56,10 @@ export default function Header() {
                           onMouseEnter={() => handleMouseEnter(item.id)}
                           onMouseLeave={handleMouseLeave}
                         >
-                          {/* <Link className="nav-link dropdown-toggle">
+                          <Link className="nav-link dropdown-toggle">
                             {item.text}
-                          </Link> */}
-                          {/* <div
+                          </Link>
+                          <div
                             className={`dropdown-menu rounded-0 m-0 ${
                               activeDropdown === item.id ? "show" : ""
                             }`}
@@ -69,7 +69,7 @@ export default function Header() {
                                 {sub.text}
                               </Link>
                             ))}
-                          </div> */}
+                          </div>
                         </div>
                       ) : (
                         <Link to={item.path} className="nav-item nav-link">

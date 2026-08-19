@@ -19,28 +19,28 @@ export const navList = [
     path: "/rooms",
     text: "Rooms",
   },
-  // {
-  //   id: 5,
-  //   path: "/page",
-  //   text: "Page",
-  //   subItems: [
-  //     {
-  //       id: 51,
-  //       path: "/booking",
-  //       text: "Booking",
-  //     },
-  //     {
-  //       id: 52,
-  //       path: "/team",
-  //       text: "Our Team",
-  //     },
-  //     {
-  //       id: 53,
-  //       path: "/testimonial",
-  //       text: "Testimonial",
-  //     },
-  //   ],
-  // },
+  {
+    id: 5,
+    path: "/page",
+    text: "Page",
+    subItems: [
+      {
+        id: 51,
+        path: "/booking",
+        text: "Booking",
+      },
+      {
+        id: 52,
+        path: "/team",
+        text: "Our Team",
+      },
+      {
+        id: 53,
+        path: "/testimonial",
+        text: "Testimonial",
+      },
+    ],
+  },
   {
     id: 6,
     path: "/contact",
@@ -67,14 +67,14 @@ export const socialIcons = [
 
 export const carouselData = [
   {
-    img: "/assets/img/carousel-1.jpg",
+    img: `${process.env.PUBLIC_URL}/assets/img/carousel-1.jpg`,
     title: "Discover A Brand Luxurious Hotel",
     subtitle: "luxury living",
     btn1: "Our Room",
     btn2: "Book Room",
   },
   {
-    img: "/assets/img/carousel-2.jpg",
+    img: `${process.env.PUBLIC_URL}/assets/img/carousel-2.jpg`,
     title: "Discover A Brand Luxurious Hotel",
     subtitle: "luxury living",
     btn1: "Our Room",
@@ -135,22 +135,22 @@ export const services = [
 ];
 export const team = [
   {
-    image: "/assets/img/team-1.jpg",
+    image: `${process.env.PUBLIC_URL}/assets/img/team-1.jpg`,
     name: "Full Name",
     designation: "Designation",
   },
   {
-    image: "/assets/img/team-2.jpg",
+    image: `${process.env.PUBLIC_URL}/assets/img/team-2.jpg`,
     name: "Full Name",
     designation: "Designation",
   },
   {
-    image: "/assets/img/team-3.jpg",
+    image: `${process.env.PUBLIC_URL}/assets/img/team-3.jpg`,
     name: "Full Name",
     designation: "Designation",
   },
   {
-    image: "/assets/img/team-3.jpg",
+    image: `${process.env.PUBLIC_URL}/assets/img/team-3.jpg`,
     name: "Full Name",
     designation: "Designation",
   },
@@ -242,7 +242,7 @@ export const testimonial = [
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
-    img: "/assets/img/testimonial-1.jpg",
+    img: `${process.env.PUBLIC_URL}/assets/img/testimonial-1.jpg`,
   },
   {
     description:
@@ -252,7 +252,7 @@ export const testimonial = [
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
-    img: "/assets/img/testimonial-2.jpg",
+    img: `${process.env.PUBLIC_URL}/assets/img/testimonial-2.jpg`,
   },
   {
     description:
@@ -262,13 +262,13 @@ export const testimonial = [
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
     ),
-    img: "/assets/img/testimonial-3.jpg",
+    img: `${process.env.PUBLIC_URL}/assets/img/testimonial-3.jpg`,
   },
 ];
 
 export const roomItems = [
   {
-    img: "/assets/img/room-1.jpg",
+    img: `${process.env.PUBLIC_URL}/assets/img/room-1.jpg`,
     price: "$110/night",
     name: "Junior Suit",
     star: [
@@ -285,7 +285,7 @@ export const roomItems = [
   },
 
   {
-    img: "/assets/img/room-2.jpg",
+    img: `${process.env.PUBLIC_URL}/assets/img/room-2.jpg`,
     price: "$110/night",
     name: "Executive Suite",
     star: [
@@ -301,7 +301,7 @@ export const roomItems = [
     darkbtn: "book now",
   },
   {
-    img: "/assets/img/room-3.jpg",
+    img: `${process.env.PUBLIC_URL}/assets/img/room-3.jpg`,
     price: "$110/night",
     name: "Super Deluxe",
     star: [
