@@ -48,12 +48,22 @@ export default function Footer() {
                       {section.header}
                     </h6>
                     {section.UnitItem.map((item, itemIndex) => (
-                      <a className="btn btn-link" href="" key={itemIndex}>
+                      <a className="btn btn-link" href={item.link} key={itemIndex}>
                         {item.name}
                       </a>
                     ))}
                   </div>
                 ))}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="copyright">
+            <div className="row">
+              <div className=" text-center mb-3 mb-md-0">
+                &copy; <a className="border-bottom" href="#">Your Site Name</a>, All
+                Right Reserved.
               </div>
             </div>
           </div>

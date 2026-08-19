@@ -163,18 +163,23 @@ export const footerItem = [
     UnitItem: [
       {
         name: "About Us",
+        link: "/about"
       },
       {
         name: "Contact Us",
+        link: "/contact"
       },
       {
-        name: "Privacy Policy",
+        name: "Booking",
+        link: "/booking"
       },
       {
-        name: "Terms & Condition",
+        name: "Our Team",
+        link: "/team"
       },
       {
-        name: "Support",
+        name: "Testimonial",
+        link: "/testimonial"
       },
     ],
   },
@@ -240,7 +245,7 @@ export const testimonial = [
     name: "Client Name",
     profession: "Profession",
     icon: (
-      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+      <i className="fa fa-quote-right testimonial-quote-icon text-primary position-absolute"></i>
     ),
     img: `${process.env.PUBLIC_URL}/assets/img/testimonial-1.jpg`,
   },
@@ -250,7 +255,7 @@ export const testimonial = [
     name: "Client Name",
     profession: "Profession",
     icon: (
-      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+      <i className="fa fa-quote-right testimonial-quote-icon text-primary position-absolute"></i>
     ),
     img: `${process.env.PUBLIC_URL}/assets/img/testimonial-2.jpg`,
   },
@@ -260,9 +265,19 @@ export const testimonial = [
     name: "Client Name",
     profession: "Profession",
     icon: (
-      <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+      <i className="fa fa-quote-right testimonial-quote-icon text-primary position-absolute"></i>
     ),
     img: `${process.env.PUBLIC_URL}/assets/img/testimonial-3.jpg`,
+  },
+  {
+    description:
+      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
+    name: "Client Name",
+    profession: "Profession",
+    icon: (
+      <i className="fa fa-quote-right testimonial-quote-icon text-primary position-absolute"></i>
+    ),
+    img: `${process.env.PUBLIC_URL}/assets/img/testimonial-4.jpg`,
   },
 ];
 
