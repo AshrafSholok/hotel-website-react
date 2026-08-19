@@ -22,7 +22,7 @@ export default function App() {
   return (
     <>
       <div>
-        <Router>
+        <Router basename="/hotel-website-react">
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
