@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hotel-website-react/static/css/main.ad1e154c.css",
-    "main.js": "/hotel-website-react/static/js/main.dfc0d615.js",
+    "main.js": "/hotel-website-react/static/js/main.fc0f59d8.js",
     "static/media/carousel-1.jpg": "/hotel-website-react/static/media/carousel-1.580323fd42819ddb11d9.jpg",
     "static/media/carousel-2.jpg": "/hotel-website-react/static/media/carousel-2.e67221a5c43968e9ef5d.jpg",
     "static/media/video.jpg": "/hotel-website-react/static/media/video.5a8116233761d401c8b1.jpg",
@@ -11,10 +11,10 @@
     "static/media/slick.woff": "/hotel-website-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/hotel-website-react/index.html",
     "main.ad1e154c.css.map": "/hotel-website-react/static/css/main.ad1e154c.css.map",
-    "main.dfc0d615.js.map": "/hotel-website-react/static/js/main.dfc0d615.js.map"
+    "main.fc0f59d8.js.map": "/hotel-website-react/static/js/main.fc0f59d8.js.map"
   },
   "entrypoints": [
     "static/css/main.ad1e154c.css",
-    "static/js/main.dfc0d615.js"
+    "static/js/main.fc0f59d8.js"
   ]
 }
